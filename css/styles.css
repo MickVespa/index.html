@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+}
+h1 {
+font-family: 'Orbitron', sans-serif;
+font-size: 4.375rem;
+color: #66BFBF;
+}
+h2 {
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #11999E;
+}
+a {
+  color: #11999E;
+}
+a:hover {
+  color: white;
+}
+p{
+  line-height: 2;
+}
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+/****************************Class Selectors********************************/
+.topContainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.middleContainer {
+margin: 100px 0;
+}
+.bottomContainer {
+background-color: #66bfbf;
+padding: 40px 0 20px;
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right:500px;
+  top: 50px;
+}
+.airplane {
+  position: absolute;
+  top: 205px;
+  left: 820px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+.profile_pic {
+  width: 250px;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.skill_pic {
+  width: 200px;
+  float: left;
+  padding-right:50px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.education_pic{
+  width: 200px;
+  float: right;
+  padding-right:150px;
+}
+.contact-message {
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11ccd4;
+  background-image: -webkit-linear-gradient(top, #11ccd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11ccd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11ccd4, #11999e);
+  background-image: -o-linear-gradient(top, #11ccd4, #11999e);
+  background-image: linear-gradient(to bottom, #11ccd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copywrite{
+  color: white;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+/****************************ID Selectors********************************/
+#p1 {
+  color: #66BFBF;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-top: 10px;
+}
